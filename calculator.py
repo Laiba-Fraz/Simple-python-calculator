@@ -16,4 +16,10 @@ def divide(a, b):
 def percentage(part, whole):
     if whole == 0:
         return "Error: Cannot calculate percentage of zero"
-    return (part / whole) * 100
+    return (part / whole) * 10
+
+# Function to take modulus of two numbers
+def modulus(a, b):
+    if b == 0:
+        return "Error: Cannot perform modulus with zero"
+    return a % b
